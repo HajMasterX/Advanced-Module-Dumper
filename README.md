@@ -23,3 +23,10 @@ A lightweight Windows tool to extract and dump executable modules from running p
    ```bash
    git clone https://github.com/yourusername/module-dumper.git
    cd module-dumper
+
+2. **Build the tool**
+   ```bash
+   build.bat
+
+## 📖 Usage
+   
