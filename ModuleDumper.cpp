@@ -275,8 +275,13 @@ public:
     }
 };
 
+void printBanner() {
+    std::cout << "Module Dumper by MasterX\n";
+    std::cout << "GitHub: https://github.com/HajMasterX\n";
+    std::cout << "=======================================\n\n";
+}
+
 void printUsage(const char* programName) {
-    std::cout << "Module Dumper\n";
     std::cout << "Usage:\n";
     std::cout << "  " << programName << " list\n";
     std::cout << "  " << programName << " list <process_name>\n";
@@ -288,6 +293,8 @@ void printUsage(const char* programName) {
 }
 
 int main(int argc, char* argv[]) {
+    printBanner();
+    
     ModuleDumper dumper;
 
     if (argc < 2) {
