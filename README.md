@@ -33,7 +33,7 @@ A lightweight Windows tool to extract and dump executable modules from running p
 ### 🎯 Commands
 
 Command | Description | Example 
- ------------ | ------------- 
+ ------------ | ------------- | -------------
 `ModuleDumper.exe list` | Show all running processes | `ModuleDumper.exe list`
 `ModuleDumper.exe list <process>` | List modules in a process | `ModuleDumper.exe list notepad.exe`
 `ModuleDumper.exe dump <process> <module> <output>` | Dump module to file | `ModuleDumper.exe dump notepad.exe notepad.exe dump.bin`
