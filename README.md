@@ -6,15 +6,6 @@ A lightweight Windows tool to extract and dump executable modules from running p
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-## ✨ Features
-
-- 📋 List all running processes
-- 📦 Show modules loaded by any process  
-- 💾 Dump modules to disk for analysis
-- 🔍 Case-insensitive name matching
-- 🛡️ Automatic privilege escalation
-- 🚀 Simple and fast
-
 ## 🚀 Quick Start
 
 ### Installation
