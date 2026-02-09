@@ -12,7 +12,7 @@ A lightweight Windows tool to extract and dump executable modules from running p
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/module-dumper.git
+   git clone https://github.com/HajMasterX/Advanced-Module-Dumper
    cd module-dumper
 
 2. **Build the tool**
